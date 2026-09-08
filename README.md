@@ -1,6 +1,6 @@
 # kollekt
 
-Kabadiwala Connect
+Kabadiwala Connect App
 
 ## Getting Started
 
