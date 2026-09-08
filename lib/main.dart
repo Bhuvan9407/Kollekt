@@ -2,7 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'firebase_options.dart';
-import 'screens/recycler_login_screen.dart';
+import 'screens/role_selection/role_selection_screen.dart';
+import 'screens/collector/localization/collector_localization.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -11,7 +12,11 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  runApp(const KollektApp());
+  runApp(
+    CollectorLanguageScope(
+      child: const KollektApp(),
+    ),
+  );
 }
 
 class KollektApp extends StatelessWidget {
@@ -28,7 +33,7 @@ class KollektApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const RecyclerLoginScreen(),
+      home: const RoleSelectionScreen(),
     );
   }
 }
