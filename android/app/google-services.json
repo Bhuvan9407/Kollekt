@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047298210999",
+    "project_id": "kollekt-1466e",
+    "storage_bucket": "kollekt-1466e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047298210999:android:1333a81a21629b9fe1e132",
+        "android_client_info": {
+          "package_name": "com.sentinels.kollekt.kollekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLtyrU_SXxpeW4uZcq8h-jC3r1lNoAhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
